@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+.header{
+    background-image: url(./images/hero.png);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header li{
+    list-style: none;
+    margin: 20px;
+}
+.listItems{
+    display: flex;
+}
+.membership{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.membership button{
+    padding: 10px;
+    background-color: #23a6f0;
+    border: none;
+    color: white;
+    gap: 5px;
+    display: flex;
+    
+}
