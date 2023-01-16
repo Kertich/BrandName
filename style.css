@@ -2,7 +2,7 @@
     margin: 0;
 }
 .header{
-    background-image: url(./images/hero.png);
+    
     color: white;
     display: flex;
     justify-content: space-around;
@@ -27,5 +27,137 @@
     color: white;
     gap: 5px;
     display: flex;
+}
+.bg1{
+    background-image: url(./images/hero.png);
+    height: 100%;
+}
+.header__midSection{
+    color: white;
+}
+.header__midSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+.header__midSectionTitle{
+    font-size: 60px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.header__midSectionContent{
+    font-size: 25px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+}
+.getQuoteBtn{
+  background-color: #23a6f0;
+  border-radius: 30px;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: white;  
+}
+.learnMoreBtn{
+  border-radius: 30px;
+  border-color: white;
+  padding: 20px;
+  background-color:transparent;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;  
+}
+.header__card{
+    display: flex;
+    gap: 20px;
+}
+
+.header__card1__title, .header__card2__title, .header__card3__title{
+    font-size: 40px;
+}
+.header__card1, .header__card2{
+    background-color: #ffffff;
+    color: black;
+    padding: 40px;
     
+}
+.header__card3{
+    background-color: #23a6f0;
+    padding: 40px;
+}
+.header__card__profile{
+    font-size: 30px;
+}
+.bodyAccomoplishment{
+    display: flex;
+    justify-content: space-around;
+}
+.bodyAccomplishment__title{
+    font: bold;
+    font-size: 20px;
+}
+.bodyAccomplishment1, .bodyAccomplishment2, .bodyAccomplishment3{
+    padding: 20px;
+}
+.bodyAccomplishment__icon{
+    color:#23a6f0;
+    font-size: 60px;
+}
+.bodyAccomplishment__text p{
+    opacity: 0.7;
+}
+.bodyAccomoplishment{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.bodyIndustry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyIndustryText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+}
+.bodyIndustryTitle{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.bodyReview{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.bodyReviewProfile img{
+    width: 80px;
+}
+.bodyReviewText{
+    opacity: 0.7;
+}
+.bg2{
+    background-color: #fafafa;
+}
+.bodyReview1, .bodyReview2, .bodyReview3{
+    border: 1px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.bodyReviewText{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
