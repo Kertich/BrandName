@@ -161,3 +161,38 @@
     flex-direction: column;
     align-items: center;
 }
+.blueOutline{
+    color: #23a6f0;
+}
+.bodyPartnerships img {
+    width: 45px;
+}
+.bodyPartnerships{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.bodySubscription{
+  display: flex;
+  justify-content: space-around; 
+  align-items: center; 
+
+}
+.bodySubscriptionMail{
+    display: flex;
+    justify-content: center;
+    border-color: #ffffff;
+}
+.bodySubscriptionMail button {
+    background-color: #23a6f0;
+    color: #ffffff;
+    border:none;
+}
+.email{
+    border-color: #ffffff;
+}
+.bodyPricing{
+    display: flex;
+    
+}
