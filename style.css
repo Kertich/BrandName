@@ -31,6 +31,8 @@
 .bg1{
     background-image: url(./images/hero.png);
     height: 100%;
+    background-size: cover;
+    width: 100%;
 }
 .header__midSection{
     color: white;
@@ -140,6 +142,7 @@
 }
 .bodyReviewProfile img{
     width: 80px;
+    height: 100px;
 }
 .bodyReviewText{
     opacity: 0.7;
@@ -173,26 +176,159 @@
     margin-top: 150px;
     margin-bottom: 80px;
 }
-.bodySubscription{
+ .bodySubscription{ /*I was here */
   display: flex;
   justify-content: space-around; 
   align-items: center; 
-
+  background-image: linear-gradient(270deg, #d11589,#044688);
+  margin: 40px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.bodySubscriptionText{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
 }
 .bodySubscriptionMail{
     display: flex;
     justify-content: center;
     border-color: #ffffff;
+    height: 100%;
+    
+}
+.bodySubscriptionMail input{
+    padding: 25px;
+    
+    
 }
 .bodySubscriptionMail button {
     background-color: #23a6f0;
     color: #ffffff;
     border:none;
+
+
+    
+
 }
 .email{
     border-color: #ffffff;
 }
 .bodyPricing{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bodyPricingTitle{
+    font-weight: 800;
+    font-size: 30px;
+}
+.bodyPricingText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+}
+.bodyPricingRate{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    gap: 1px;
     
+    
+    
+    
+}
+.bodyPricingRateFree, .bodyPricingRateStandard, .bodyPricingRatePremium{
+    border: solid 1px;
+    border-color: #37aef1;
+    padding: 20px;
+}
+/* .bodyPricingRateFree div, .bodyPricingRateStandard div, .bodyPricingRatePremium div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.bodyPricingType{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.bodyPricingDescription{
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.Number{
+    font-size: 30px;
+    font-weight: 800;
+    color: #23a6f0;
+}
+.bodyPricingAmount{
+    display: flex;
+    justify-content: center;
+}
+.sign {
+    color: #23a6f0;
+    margin-left: 10px;
+}
+.desc{
+    display: flex;
+    align-items: center;
+}
+.descIcon {
+    padding: 10px;
+    color: #2dc071; 
+}
+.descIconN{
+    color: #bdbdbd;
+}
+.productDescription{
+    margin-bottom: 10px;
+}
+.productionButton{
+    display: flex;
+    justify-content: center;
+}
+
+.productionButton button{
+    height: 80%;
+    width: 80%;
+    background-color: #23a6f0;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.bodyPricingRateStandard{
+    background-color: #252b42;
+    color: #ffffff;
+}
+.bg3{
+    background-color: #252b42;
+}
+.bg3__content{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 40px;
+}
+.bg3__contentTitle{
+    font-size: 30px;
+}
+.bg3__upper{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    align-items: center;
+}
+.theWorld {
+    width: 300px;
 }
