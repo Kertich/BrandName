@@ -340,6 +340,7 @@
 .form{
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 }
 .formHeader p{
     font-size: 20px;
@@ -365,4 +366,60 @@
     background-color: #23a6f0;
     color: white;
     border: none;
+}
+.footer_div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#consult{
+    font-size: 20px;
+    font-weight: 600;
+}
+#translucent{
+    opacity: 0.7;
+}
+.footer_div1__btn button{
+    color: #ffffff;
+    background-color: #23a6f0;
+    border-color: #23a6f0;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.footer_div2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer_div2 p {
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+#footerTitle{
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 1;
+}
+.footer_div3{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_div3_content{
+    opacity: 0.7;
+}
+.footer_div3_icons{
+    display: flex;
+    gap: 20px;
+    color: #23a6f0;
+}
+.footer_touchIcon{
+    display: flex;
+    gap: 10px;
+}
+.footer_touchIcon ion-icon{
+    color: #23a6f0;
 }
