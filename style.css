@@ -243,6 +243,7 @@
     border: solid 1px;
     border-color: #37aef1;
     padding: 20px;
+    border-radius: 5px;
 }
 /* .bodyPricingRateFree div, .bodyPricingRateStandard div, .bodyPricingRatePremium div {
     margin-bottom: 20px;
@@ -310,6 +311,7 @@
 .bodyPricingRateStandard{
     background-color: #252b42;
     color: #ffffff;
+    margin-top: -30px;
 }
 .bg3{
     background-color: #252b42;
@@ -331,4 +333,36 @@
 }
 .theWorld {
     width: 300px;
+}
+.form__fam img{
+    width: 180px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.formHeader p{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 80px;
+    margin-bottom: 5px;
+}
+.form__magin{
+    margin-bottom: 15px;
+    
+}
+.form__content{
+    margin-left: 30px;
+}
+.form__width{
+    width: 260px;
+    height: 30px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border-color: #f9f9f9;
+}
+.fbutton{
+    background-color: #23a6f0;
+    color: white;
+    border: none;
 }
