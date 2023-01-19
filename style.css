@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap');
 *{
     margin: 0;
 }
@@ -29,10 +30,14 @@
     display: flex;
 }
 .bg1{
-    background-image: url(./images/hero.png);
+    background-image:linear-gradient(rgba( 0,0,0,0.6) ,rgba( 0,0,0,0.6)), url(./images/hero.png);
     height: 100%;
     background-size: cover;
     width: 100%;
+    
+}
+.header__card{
+    margin-bottom: -100px;
 }
 .header__midSection{
     color: white;
@@ -48,6 +53,7 @@
     display: flex;
     justify-content:center;
     flex-direction: column;
+    
 }
 .header__midSectionContent{
     font-size: 25px;
@@ -79,7 +85,9 @@
 }
 .header__card{
     display: flex;
+    align-items: center;
     gap: 20px;
+    
 }
 
 .header__card1__title, .header__card2__title, .header__card3__title{
@@ -88,12 +96,19 @@
 .header__card1, .header__card2{
     background-color: #ffffff;
     color: black;
-    padding: 40px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+  
     
 }
 .header__card3{
     background-color: #23a6f0;
-    padding: 40px;
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+   
+
 }
 .header__card__profile{
     font-size: 30px;
@@ -315,6 +330,8 @@
 }
 .bg3{
     background-color: #252b42;
+    padding-bottom: 300px;
+    
 }
 .bg3__content{
     display: flex;
@@ -341,19 +358,23 @@
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
+    margin-top: -200px;
 }
 .formHeader p{
     font-size: 20px;
-    font-weight: 800;
-    padding-left: 80px;
-    margin-bottom: 5px;
+    font-weight: 400;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .form__magin{
     margin-bottom: 15px;
     
 }
 .form__content{
-    margin-left: 30px;
+    padding-left: 30px;
+    background-color: white;
 }
 .form__width{
     width: 260px;
@@ -394,6 +415,10 @@
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    padding-top: 40px;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-bottom: 60px;
 }
 .footer_div2 p {
     opacity: 0.7;
@@ -407,6 +432,7 @@
 .footer_div3{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .footer_div3_content{
     opacity: 0.7;
