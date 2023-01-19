@@ -8,6 +8,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .header li{
     list-style: none;
@@ -20,6 +21,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .membership button{
     padding: 10px;
@@ -53,7 +55,7 @@
     display: flex;
     justify-content:center;
     flex-direction: column;
-    
+    /* no action on flex wrap */
 }
 .header__midSectionContent{
     font-size: 25px;
@@ -61,6 +63,10 @@
     justify-content:center;
     flex-direction: column;
     align-items:center;
+}
+.header__midSectionButtons{
+    display: flex;
+    flex-wrap: wrap;
 }
 .getQuoteBtn{
   background-color: #23a6f0;
@@ -87,6 +93,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
     
 }
 
@@ -401,6 +408,16 @@
 #translucent{
     opacity: 0.7;
 }
+.footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer_div1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 .footer_div1__btn button{
     color: #ffffff;
     background-color: #23a6f0;
@@ -410,7 +427,10 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 .footer_div2{
     display: flex;
     justify-content: space-around;
@@ -419,6 +439,7 @@
     padding-right: 300px;
     padding-left: 80px;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 .footer_div2 p {
     opacity: 0.7;
@@ -441,6 +462,7 @@
     display: flex;
     gap: 20px;
     color: #23a6f0;
+    flex-wrap: wrap;
 }
 .footer_touchIcon{
     display: flex;
